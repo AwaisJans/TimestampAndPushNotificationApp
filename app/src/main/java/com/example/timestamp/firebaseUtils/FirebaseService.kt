@@ -1,4 +1,4 @@
-package com.example.timestampapp.firebaseUtils
+package com.example.timestamp.firebaseUtils
 
 import retrofit2.Call
 import retrofit2.http.Body

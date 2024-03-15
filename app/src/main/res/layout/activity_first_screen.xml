@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context=".FirstScreen">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:id="@+id/idTimestamp"
+        android:textColor="@color/white"
+        android:layout_height="70dp"
+        android:text="Timestamp Screen"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="300dp"
+        android:backgroundTint="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/idPushNotify"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_height="70dp"
+        android:text="Push Notification Screen"/>
+
+
+
+
+</LinearLayout>

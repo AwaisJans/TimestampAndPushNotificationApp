@@ -1,19 +1,13 @@
-package com.example.timestampapp.serviceUtils
+package com.example.timestamp.serviceUtils
 
 import android.annotation.SuppressLint
 import android.app.Service
 import android.content.Intent
 import android.os.Build
 import android.os.IBinder
-import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import com.example.timestampapp.R
-import com.example.timestampapp.firebaseUtils.FirebaseService
-import com.example.timestampapp.firebaseUtils.PostData
-import com.example.timestampapp.firebaseUtils.RetrofitInstance
-import kotlinx.coroutines.NonCancellable.start
-import retrofit2.Callback
+import com.example.timestamp.R
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
@@ -36,13 +30,6 @@ class RunningService: Service() {
 
         return super.onStartCommand(intent, flags, startId)
     }
-
-
-
-
-
-
-
 
     @RequiresApi(Build.VERSION_CODES.O)
     private fun start(){

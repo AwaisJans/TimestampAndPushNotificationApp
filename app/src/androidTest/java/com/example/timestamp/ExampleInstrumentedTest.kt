@@ -1,4 +1,4 @@
-package com.example.timestampapp
+package com.example.timestamp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

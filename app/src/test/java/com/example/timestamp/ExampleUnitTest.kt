@@ -1,4 +1,4 @@
-package com.example.timestampapp
+package com.example.timestamp
 
 import org.junit.Test
 
